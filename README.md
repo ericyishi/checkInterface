@@ -3,6 +3,7 @@
 
 ## 开发背景
  * 工作中，在系统测试阶段常常需要调试接口的连通性以及返回数据的正确性。随着系统开发时间推移，接口的数量激增，如果仅仅依靠人工测试费时，所以使用java写了一个简单小工具提高工作效率。
+ 
 ## 思路
  * 使用excel表，按照“接口测试用例表”的方式罗列出待测数据，通过程序去根据每个接口的请求地址、请求方式（本demo只写了get、post方式）以及请求数据的不同来拼接发送请求，然后用期望数据在http请求返回的数据中进行查找比较，如果符合预期，备注“通过”；如果与预期不符，则备注原因。
 
@@ -14,9 +15,10 @@
  ![Image text](https://raw.githubusercontent.com/ericyishi/img-folder/master/checkInterface02.png)
                                     <p>图2：项目文件结构</p>
 
-*App.java为主运行文件，这里只需要传入被测excel文件的路径和测试人姓名即可
+* App.java为主运行文件，这里只需要传入被测excel文件的路径和测试人姓名即可
 
 ## 运行结果
+* 网上找的测试的接口已经停掉了，但不影响效果展示
  ![Image text](https://raw.githubusercontent.com/ericyishi/img-folder/master/checkInterface03.png)
                                     <p>图3：运行后的结果展示</p>
                                     
