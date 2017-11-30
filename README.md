@@ -21,7 +21,7 @@
  ![Image text](https://raw.githubusercontent.com/ericyishi/img-folder/master/checkInterface02.png)
                                     <p>图2：项目文件结构</p>
 
-* App.java为主运行文件，这里只需要传入被测excel文件的'路径'和'测试人姓名'即可。
+* App.java为主运行文件，这里只需要传入被测excel文件的`路径`和`测试人姓名`即可。
 
 
 ## 运行结果
@@ -30,12 +30,12 @@
  ![Image text](https://raw.githubusercontent.com/ericyishi/img-folder/master/checkInterface03.png)
                                     <p>图3：运行后的结果展示</p>
                    
-* '实际结果'是请求返回的数据，也写进了表格里，方便查看分析。 
+* `实际结果`是请求返回的数据，也写进了表格里，方便查看分析。 
 
 
 ## 总结 
 
-1. 如何读取excel。使用POI来读写excel单元格的内容(为了方便直接使用'maven'添加相关依赖);
+1. 如何读取excel。使用POI来读写excel单元格的内容(为了方便直接使用`maven`添加相关依赖);
 2. 如何判断接口是否通过测试。从可通性以及数据正确性两面来判断的。所以我根据具体项目，添加的期望值应包括返回标志位：errMsg 以及观察点：city 两部分。
 3. 比较数据。要把期望值每个单独提取出来（以分号作为分隔，放到Map中），到请求返回的数据中去查找。因为不清楚返回数据的结构是怎么样的，所以需要递归查找，如果期望值所有值都匹配那么就认为是接口正确的。
 
