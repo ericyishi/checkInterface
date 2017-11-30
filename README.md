@@ -30,7 +30,9 @@
  ![Image text](https://raw.githubusercontent.com/ericyishi/img-folder/master/checkInterface03.png)
                                     <p>图3：运行后的结果展示</p>
                    
-                   
+* '实际结果'是请求返回的数据，也写进了表格里，方便查看分析。 
+
+
 ## 总结 
 
 1. 如何读取excel。使用POI来读写excel单元格的内容(为了方便直接使用'maven'添加相关依赖);
