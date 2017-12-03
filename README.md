@@ -12,7 +12,7 @@
 
  * 使用excel表，按照“接口测试用例表”的方式罗列出待测数据，通过程序去根据每个接口的请求地址、请求方式（本demo只写了get、post方式）以及请求数据的不同来拼接发送请求，然后用期望数据在http请求返回的数据中进行查找比较，如果符合预期，备注“通过”；如果与预期不符，则备注原因。
 
-
+* 网上找的测试的接口的内容已经停掉了，但依然有返回，不影响效果展示。
 ![Image text](https://raw.githubusercontent.com/ericyishi/img-folder/master/checkInterface01.png)
                                     <p>图1：接口测试用例表</p>
                                     
@@ -26,7 +26,6 @@
 
 ## 运行结果
 
-* 网上找的测试的接口已经停掉了，但不影响效果展示。
  ![Image text](https://raw.githubusercontent.com/ericyishi/img-folder/master/checkInterface03.png)
                                     <p>图3：运行后的结果展示</p>
                    
