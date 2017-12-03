@@ -1,6 +1,7 @@
 ## 介绍
 
- * 一个简单的接口测试工具Demo
+ * 一个简单的接口测试工具Demo.(用于简单的功能性测试)
+ 
 
 
 ## 开发背景
@@ -14,7 +15,7 @@
 
 * 网上找的测试的接口的内容已经停掉了，但依然有返回，不影响效果展示。
 ![Image text](https://raw.githubusercontent.com/ericyishi/img-folder/master/checkInterface01.png)
-                                    <p>图1：接口测试用例表</p>
+                                    <p>图1：接口测试用例表</p>
                                     
  ## 文件结构 
  
